@@ -1,19 +1,149 @@
-main {
-  border: 1px solid black;
+body {
+  background-color: #000;
+  color: wheat;
+}
+.abir {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.main {
   display: flex;
   justify-content: center;
   justify-items: center;
   position: relative;
   overflow: hidden;
+  width: 100px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.asia {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  margin: 50px;
+  border-radius: 10px;
+}
+.asia-2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  margin: 50px;
+  border-radius: 10px;
 }
 .box {
   position: absolute;
-  background: blue;
+  background: yellow;
   height: 100px;
-  width: 100%;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-a {
+  position: absolute;
+  background: yellow;
+  height: 100px;
+  width: 200px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-b {
+  position: absolute;
+  background: yellow;
+  height: 100px;
+  width: 300px;
   transition-duration: 500ms;
   transition-timing-function: ease;
 }
 .box:hover {
-  transform: translateY(80px);
+  transform: translateX(-100px);
+}
+.box-a:hover {
+  transform: translateX(200px);
+}
+.box-b:hover {
+  transform: translateY(100px);
+}
+/* second animation*/
+
+.main-1 {
+  gap: 4rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  margin: 50px;
+  border-radius: 10px;
+}
+.box-1 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-2 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transform-origin: top;
+  border-radius: 100%;
+}
+.container-2 {
+  overflow: hidden;
+  border-radius: 100%;
+}
+.box-3 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-4 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-5 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-6 {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+.box-1:hover {
+  transform: scale(2);
+}
+.box-2:hover {
+  transform: rotate(180deg);
+}
+.box-3:hover {
+  transform: rotate(-140deg);
+}
+.box-4:hover {
+  transform: rotate(140deg);
+}
+.box-5:hover {
+  transform: skew(45deg);
+}
+.box-6:hover {
+  transform: skew(45deg, 30deg);
 }
