@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./pages/button/Button";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           </div>
           <div className="asia">
             <div className="box-a"></div>
-            <h2>hello</h2>
+            <h2>Hello</h2>
           </div>
           <div className="asia-2">
             <div className="box-b"></div>
@@ -29,6 +30,7 @@ function App() {
           <div className="box-6"></div>
         </div>
       </main>
+      <Button></Button>
     </>
   );
 }
