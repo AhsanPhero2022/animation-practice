@@ -1,6 +1,7 @@
 import "./App.css";
 import Box from "./pages/box/Box";
 import Button from "./pages/button/Button";
+import FramerMotionBox from "./pages/framerMotion/FramerMotionBox";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       </main>
       <Button></Button>
       <Box></Box>
+      <FramerMotionBox></FramerMotionBox>
     </>
   );
 }
